@@ -11,6 +11,39 @@ main{
     text-align: center;
 }
 
+footer{
+    display: flex;
+    background-color: #003b36;
+    justify-content: space-evenly;
+    height: 2.5em;
+}
+
+a {
+    color: #ece5f0;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #003b36;
+    height: 2.5em;
+}
+
 .Image{
     width: 50%;
 }
@@ -18,5 +51,5 @@ main{
 .flex-container{
     display: flex;
     flex-flow: row;
-    margin: 50px 200px;
+    justify-content: space-evenly;
 }
