@@ -46,6 +46,7 @@ ul{
 .home{
     display: flex;
     justify-content: left;
+    background-color: #003b36;
 }
 
 .navbar{
